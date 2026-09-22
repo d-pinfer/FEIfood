@@ -291,7 +291,7 @@ void slogan(void) {
     printf("============================================================\n");
     printf("             CONECTANDO PESSOAS E SABORES                   \n");
     printf("------------------------------------------------------------\n");
-    printf("  CREATED BY: DAVI PINHEIRO FERREIRA - RA: 72.125.009-0     \n");
+    printf("  CREATED BY: DAVI PINHEIRO FERREIRA                        \n");
     printf("============================================================\n\n");
 }
 
@@ -1800,7 +1800,7 @@ void visualizar_avaliacoes(const char *email_login) {
 
 // -------------------- FUNCAO PRINCIPAL (MAIN) ------------------------
 
-// Funcao principal que controla o fluxo geral do sistema FeiFood
+// Funcao principal que controla o fluxo geral do sistema FEIfood
 int main(void) {
     // Define semente para funcoes aleatorias (chave PIX, etc.)
     srand((unsigned)time(NULL));
