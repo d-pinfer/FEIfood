@@ -51,20 +51,20 @@ Some examples include:
 ```text
 FEIfood/
 ├── main.c
+├── cardapio.txt
 ├── README.md
 └── .gitignore
 ```
 
 The application uses local text files during execution:
 
-- `cardapio.txt` — food catalog used by the search and order flow;
+- `cardapio.txt` — food catalog used by the search and order flow (included in the repository);
 - `cadastros.txt` — user accounts;
 - `pedidos.txt` — user orders;
 - `avaliacoes.txt` — order ratings.
 
 The user-generated files are ignored by Git because they may contain personal information.
 
-> The original `cardapio.txt` is required for the complete application flow and still needs to be added to this repository.
 
 ## ▶️ How to Compile and Run
 
@@ -75,17 +75,7 @@ git clone https://github.com/d-pinfer/FEIfood.git
 cd FEIfood
 ```
 
-### 2. Add the menu catalog
-
-Place the project's `cardapio.txt` file in the repository root.
-
-Each catalog line follows this structure:
-
-```text
-id,item,store,cuisine,price
-```
-
-### 3. Create the local data files
+### 2. Create the local data files
 
 Create these empty files in the project folder:
 
@@ -95,7 +85,7 @@ pedidos.txt
 avaliacoes.txt
 ```
 
-### 4. Compile
+### 3. Compile
 
 Using GCC:
 
@@ -109,7 +99,7 @@ On Windows, you may use:
 gcc main.c -o feifood.exe
 ```
 
-### 5. Run
+### 4. Run
 
 Linux/macOS:
 
