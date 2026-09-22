@@ -1,0 +1,19 @@
+# User-generated local data
+cadastros.txt
+pedidos.txt
+avaliacoes.txt
+
+# C build files
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
