@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./assets/feifood-identity.jpg" alt="FEIfood visual identity" width="320">
+</div>
+
 # 🍔 FEIfood
 
 FEIfood is a terminal-based delivery system developed in **C** as an academic project at **Centro Universitário FEI**.
